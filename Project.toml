@@ -1,0 +1,7 @@
+name = "LatexParser"
+uuid = "9e2e44e1-7b45-4148-8280-971daa749fcd"
+authors = ["Brian Tipton <brian.p.tipton@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
