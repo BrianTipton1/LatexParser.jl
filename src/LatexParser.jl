@@ -1,6 +1,6 @@
 module LatexParser
 using Markdown
-
+export left, center
 function left(equation)
     equation = "``" * equation
     equation =  equation * "``" 
