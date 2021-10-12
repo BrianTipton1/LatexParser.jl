@@ -1,12 +1,12 @@
 module LatexParser
 using Markdown
-export left, center
-function left(equation)
+export tex_left, tex_center
+function tex_left(equation)
     equation = "``" * equation
     equation =  equation * "``" 
     return Markdown.parse(equation)
 end
-function center(equation)
+function tex_center(equation)
     equation = "\$" * equation
     equation =  equation * "\$" 
     return Markdown.parse(equation)
